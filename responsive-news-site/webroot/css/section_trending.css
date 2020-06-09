@@ -3,11 +3,29 @@
 }
 
 @media (min-width: 768px) {
-  .section_container {
+  #section_trending {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 3rem;
     column-gap: 3rem;
-    grid-template-areas: ;
+    grid-template-areas: "header header"
+                         "first-article-swatch second-article-swatch"
+                         "first-article-swatch second-article-swatch"
+                         "first-article-swatch second-article-swatch";
+    padding: 5rem;
+  }
+  #section_trending > header {
+    grid-area: header;
+  }
+  #section_trending > .article_swatch:nth-of-type(1) {
+    grid-area: first-article-swatch;
+  }
+  #section_trending > .article_swatch:nth-of-type(2) {
+    grid-area: second-article-swatch;
+  }
+
+
+  .article_swatch:last-of-type {
+    display: none;
   }
 }
