@@ -37,8 +37,18 @@
     grid-column-gap: 3rem;
     column-gap: 3rem;
     grid-template-areas: "header header"
-                         ""
-                         "";
+                         "first-article_longform second-article_longform"
+                         "first-article_longform second-article_longform"
+                         "first-article_longform second-article_longform";
 
+  }
+  #section_more_news > header {
+    grid-area: header;
+  }
+  #section_more_news > .article_longform:first-of-type {
+    grid-area: first-article_longform;
+  }
+  #section_more_news > .article_longform:last-of-type {
+    grid-area: second-article_longform;
   }
 }
