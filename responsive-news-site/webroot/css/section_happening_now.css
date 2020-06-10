@@ -22,7 +22,7 @@
   #section_happening_now .article_card:not(.article_image) {
     padding: 2.5rem;
   }
-  .article_card .article_title {
+  #section_happening_now .article_card .article_title {
     padding-block-start: 8rem;
   }
   #section_happening_now .article_simple {
@@ -57,11 +57,11 @@
   #section_happening_now > .article_simple:nth-of-type(2) {
     grid-area: last-picture;
   }
-  .article_simple .article_image img {
+  #section_happening_now .article_simple .article_image img {
     height: 50%;
-    transform: translate(-136px, -199px);
+    transform: translate(-148px, -199px);
   }
-  .article_title {
+  #section_happening_now .article_title {
     transform: translate(-3px, -199px);
   }
   .article_simple .article_footer {
