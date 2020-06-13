@@ -90,11 +90,11 @@
   #section_happening_now .article_card .article_title {
     transform: translate(0, 0);
   }
-  #section_happening_now .article_simple {
 
-  }
-  /* .article_simple:nth-of-type(3) {
+  .article_simple:last-of-type {
     display: flex;
-  } */
+  }
+
+
 
 }
