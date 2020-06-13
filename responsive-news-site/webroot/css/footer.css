@@ -102,3 +102,34 @@ body > footer a {
   }
 
 }
+
+@media (min-width: 1044px) {
+  body > footer {
+    display: flex;
+    flex-direction: row;
+  }
+  footer > h2 {
+    margin-inline-start: 5rem;
+  }
+  .links_site {
+    margin-inline-start: 4rem;
+  }
+  .form_subscribe {
+    min-width: 260px;
+    margin-inline-start: 10rem;
+  }
+  .links_social {
+    margin-inline-start: 8rem;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+  }
+  .icon_twitter {
+    margin-inline-start: 1rem;
+  }
+  .icon_facebook {
+    margin-inline-start: 1rem;
+  }
+  .icon_web {
+    margin-inline-start: 1rem;
+  }
+}
