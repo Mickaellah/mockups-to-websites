@@ -29,3 +29,30 @@
     display: none;
   }
 }
+
+@media (min-width: 1044px) {
+  .article_swatch:nth-of-type(2) ~ .article_swatch {
+    display: flex;
+  }
+
+  #section_trending {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "header header header"
+                         "first-swatch second-swatch third-swatch"
+                         "first-swatch second-swatch third-swatch"
+                         "first-swatch second-swatch third-swatch";
+  }
+  #section_trending > header {
+    grid-area: header;
+  }
+  #section_trending > .article_swatch:nth-of-type(1) {
+    grid-area: first-swatch;
+  }
+  #section_trending > .article_swatch:nth-of-type(2) {
+    grid-area: second-swatch;
+  }
+  #section_trending > .article_swatch:nth-of-type(3) {
+    grid-area: third-swatch;
+  }
+}
