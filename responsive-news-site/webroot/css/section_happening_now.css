@@ -59,7 +59,6 @@
   }
   #section_happening_now .article_simple .article_image img {
     height: 50%;
-    /* transform: translate(-139px, -199px); */
   }
   #section_happening_now .article_title {
     transform: translate(-3px, -199px);
@@ -77,5 +76,25 @@
     left: 0;
     transform: translate(0, 0);
   }
+
+}
+
+@media (min-width: 1044px) {
+  #section_happening_now {
+    display: grid;
+  }
+  #section_happening_now .article_card {
+    width: 60%;
+    float: left;
+  }
+  #section_happening_now .article_card .article_title {
+    transform: translate(0, 0);
+  }
+  #section_happening_now .article_simple {
+
+  }
+  /* .article_simple:nth-of-type(3) {
+    display: flex;
+  } */
 
 }
