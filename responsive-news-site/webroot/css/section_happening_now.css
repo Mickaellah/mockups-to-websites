@@ -59,7 +59,7 @@
   }
   #section_happening_now .article_simple .article_image img {
     height: 50%;
-    transform: translate(-139px, -199px);
+    /* transform: translate(-139px, -199px); */
   }
   #section_happening_now .article_title {
     transform: translate(-3px, -199px);
@@ -70,6 +70,12 @@
 
   .article_simple:last-of-type {
     display: none;
+  }
+
+  #section_happening_now .article_simple .article_image img {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
   }
 
 }
