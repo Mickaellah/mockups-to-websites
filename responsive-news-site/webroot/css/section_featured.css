@@ -29,3 +29,19 @@
     padding: 5rem;
   }
 }
+
+@media (min-width: 1044px) {
+  #section_featured {
+    width: 60%;
+    display: flex;
+    float: left;
+  }
+  #section_featured article {
+    padding: 10rem;
+    padding-block-start: 13.3rem;
+    padding-block-end: 13.3rem;
+  }
+
+
+}
+
